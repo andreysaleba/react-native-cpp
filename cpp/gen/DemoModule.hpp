@@ -45,4 +45,6 @@ public:
     virtual void testEventWithArray(const std::shared_ptr<::JavascriptArray> & value) = 0;
 
     virtual void testEventWithMap(const std::shared_ptr<::JavascriptMap> & value) = 0;
+
+    virtual void getOpenSSLVersion(const std::shared_ptr<::JavascriptPromise> & promise) = 0;
 };

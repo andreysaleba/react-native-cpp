@@ -100,6 +100,11 @@ public final class DemoModule extends ReactContextBaseJavaModule {
         mModule.testEventWithMap(ReactDjinni.wrap(value));
     }
 
+    @ReactMethod
+    public void getOpenSSLVersion(Promise promise) {
+        mModule.getOpenSSLVersion(ReactDjinni.wrap(promise));
+    }
+
     private static final class CppProxy
     {
         private final long nativeRef;
@@ -185,5 +190,12 @@ public final class DemoModule extends ReactContextBaseJavaModule {
             native_testEventWithMap(this.nativeRef, value);
         }
         private native void native_testEventWithMap(long _nativeRef, com.rushingvise.reactcpp.JavascriptMap value);
+
+        public void getOpenSSLVersion(com.rushingvise.reactcpp.JavascriptPromise promise)
+        {
+            assert !this.destroyed.get() : "trying to use a destroyed object";
+            native_getOpenSSLVersion(this.nativeRef, promise);
+        }
+        private native void native_getOpenSSLVersion(long _nativeRef, com.rushingvise.reactcpp.JavascriptPromise promise);
     }
 }

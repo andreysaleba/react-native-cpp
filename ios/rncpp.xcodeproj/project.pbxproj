@@ -64,6 +64,8 @@
 		5E58667521F8711C00A5CA4A /* RCDemoModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E58666D21F8711B00A5CA4A /* RCDemoModule.mm */; };
 		5E58667621F8711C00A5CA4A /* RCDemoModule+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E58666E21F8711B00A5CA4A /* RCDemoModule+Private.mm */; };
 		5E58667721F8711C00A5CA4A /* RCDjinniModulesInitializer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E58667421F8711C00A5CA4A /* RCDjinniModulesInitializer.mm */; };
+		5E7FA44121F8AD1700E50C0B /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7FA43F21F8AD1700E50C0B /* libssl.a */; };
+		5E7FA44221F8AD1700E50C0B /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7FA44021F8AD1700E50C0B /* libcrypto.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 /* End PBXBuildFile section */
@@ -451,6 +453,8 @@
 		5E58667221F8711B00A5CA4A /* RCDemoModule+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RCDemoModule+Private.h"; path = "rncpp/Generated/RCDemoModule+Private.h"; sourceTree = "<group>"; };
 		5E58667321F8711C00A5CA4A /* RCDjinniModulesInitializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCDjinniModulesInitializer.h; path = rncpp/Generated/RCDjinniModulesInitializer.h; sourceTree = "<group>"; };
 		5E58667421F8711C00A5CA4A /* RCDjinniModulesInitializer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RCDjinniModulesInitializer.mm; path = rncpp/Generated/RCDjinniModulesInitializer.mm; sourceTree = "<group>"; };
+		5E7FA43F21F8AD1700E50C0B /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "../../prebuilt-openssl/dist/openssl-1.0.2d-ios/lib/libssl.a"; sourceTree = "<group>"; };
+		5E7FA44021F8AD1700E50C0B /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "../../prebuilt-openssl/dist/openssl-1.0.2d-ios/lib/libcrypto.a"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
@@ -481,6 +485,8 @@
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
+				5E7FA44121F8AD1700E50C0B /* libssl.a in Frameworks */,
+				5E7FA44221F8AD1700E50C0B /* libcrypto.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -630,6 +636,8 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5E7FA44021F8AD1700E50C0B /* libcrypto.a */,
+				5E7FA43F21F8AD1700E50C0B /* libssl.a */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
 			);
 			name = Frameworks;
@@ -1334,7 +1342,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1490,10 +1498,17 @@
 				DEAD_CODE_STRIPPING = NO;
 				INFOPLIST_FILE = rncpp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/Users/andreysaleba/projects/prebuilt-openssl/dist/openssl-1.0.2d-ios/include",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
+					"-L/Users/andreysaleba/projects/prebuilt-openssl/dist/openssl-1.0.2d-ios/lib",
+					"-lcrypto",
+					"-lssl",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = rncpp;
@@ -1508,10 +1523,17 @@
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = rncpp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/Users/andreysaleba/projects/prebuilt-openssl/dist/openssl-1.0.2d-ios/include",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
+					"-L/Users/andreysaleba/projects/prebuilt-openssl/dist/openssl-1.0.2d-ios/lib",
+					"-lcrypto",
+					"-lssl",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = rncpp;

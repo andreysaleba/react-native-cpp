@@ -18,7 +18,7 @@ public:
     void testString(const std::string & value, const std::shared_ptr<::JavascriptPromise> & promise) override;
     void testEventWithArray(const std::shared_ptr<::JavascriptArray> & value) override;
     void testEventWithMap(const std::shared_ptr<::JavascriptMap> & value) override;
-
+    void getOpenSSLVersion(const std::shared_ptr<::JavascriptPromise> & promise) override;
 private:
     std::shared_ptr<ReactBridge> mBridge;
     std::shared_ptr<JobQueueImpl> mQueue;

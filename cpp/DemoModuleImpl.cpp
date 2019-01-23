@@ -8,6 +8,8 @@
 #include <thread>
 #include <chrono>
 
+#include <openssl/crypto.h>
+
 std::shared_ptr<DemoModule> DemoModule::create(const std::shared_ptr<::ReactBridge> &bridge) {
     return std::make_shared<DemoModuleImpl>(bridge);
 }
@@ -80,4 +82,8 @@ void DemoModuleImpl::testEventWithMap(const std::shared_ptr<::JavascriptMap> & v
         }
     });
     t.detach();
+}
+
+void DemoModuleImpl::getOpenSSLVersion(const std::shared_ptr<::JavascriptPromise> &promise) {
+    promise->resolveString(SSLeay_version(1));
 }

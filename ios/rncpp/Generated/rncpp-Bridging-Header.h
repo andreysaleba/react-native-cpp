@@ -2,3 +2,4 @@
 #pragma once
 
 #import "RCDemoModule.h"
+#import "RCDjinniModulesInitializer.h"

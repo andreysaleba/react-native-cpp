@@ -117,6 +117,13 @@ RCT_EXPORT_METHOD(testEventWithMap:(nullable NSDictionary *)value) {
     } DJINNI_TRANSLATE_EXCEPTIONS()
 }
 
+RCT_REMAP_METHOD(getOpenSSLVersion, getOpenSSLVersion:(nonnull RCTPromiseResolveBlock)resolver
+                                             rejecter:(nonnull RCTPromiseRejectBlock)rejecter) {
+    try {
+        _cppRefHandle.get()->getOpenSSLVersion(::djinni_generated::JavascriptPromise::toCpp([RVReactDjinni wrapPromiseWithResolver:resolver rejecter:rejecter]));
+    } DJINNI_TRANSLATE_EXCEPTIONS()
+}
+
 - (NSDictionary *)constantsToExport
 {
     return @{

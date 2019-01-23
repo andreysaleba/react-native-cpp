@@ -120,4 +120,13 @@ CJNIEXPORT void JNICALL Java_com_rncpp_jni_DemoModule_00024CppProxy_native_1test
     } JNI_TRANSLATE_EXCEPTIONS_RETURN(jniEnv, )
 }
 
+CJNIEXPORT void JNICALL Java_com_rncpp_jni_DemoModule_00024CppProxy_native_1getOpenSSLVersion(JNIEnv* jniEnv, jobject /*this*/, jlong nativeRef, ::djinni_generated::NativeJavascriptPromise::JniType j_promise)
+{
+    try {
+        DJINNI_FUNCTION_PROLOGUE1(jniEnv, nativeRef);
+        const auto& ref = ::djinni::objectFromHandleAddress<::DemoModule>(nativeRef);
+        ref->getOpenSSLVersion(::djinni_generated::NativeJavascriptPromise::toCpp(jniEnv, j_promise));
+    } JNI_TRANSLATE_EXCEPTIONS_RETURN(jniEnv, )
+}
+
 }  // namespace djinni_generated

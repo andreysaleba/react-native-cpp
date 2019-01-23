@@ -33,6 +33,7 @@ export default class App extends React.Component {
     this.appendLine("testMap: " + JSON.stringify(await DemoModule.testMap({a: DemoModule.INT_CONSTANT, b: 2})));
     this.appendLine("testBool: " + await DemoModule.testBool(DemoModule.BOOL_CONSTANT));
     this.appendLine("testString: " + await DemoModule.testString(DemoModule.STRING_CONSTANT));
+    this.appendLine("openSSL version: " + await DemoModule.getOpenSSLVersion());
   }
 
   callbackTest() {

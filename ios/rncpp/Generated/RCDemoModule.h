@@ -48,4 +48,7 @@ extern BOOL const RCDemoModuleBOOLCONSTANT;
 
 - (void)testEventWithMap:(nullable NSDictionary *)value;
 
+- (void)getOpenSSLVersion:(nonnull RCTPromiseResolveBlock)resolver
+                 rejecter:(nonnull RCTPromiseRejectBlock)rejecter;
+
 @end
