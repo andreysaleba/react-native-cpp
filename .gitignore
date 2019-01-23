@@ -7,3 +7,9 @@ npm-debug.*
 *.mobileprovision
 .idea
 *.iml
+
+android/.gradle
+android/app/.externalNativeBuild/cmake/debug
+android/app/build
+
+ios/build

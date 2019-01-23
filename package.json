@@ -5,10 +5,11 @@
     "ios": "react-native run-ios"
   },
   "dependencies": {
-    "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz"
+    "react": "16.7.0",
+    "react-native": "^0.57.5"
   },
   "devDependencies": {
+    "@babel/runtime": "^7.2.0",
     "babel-preset-expo": "^5.0.0"
   },
   "private": true
