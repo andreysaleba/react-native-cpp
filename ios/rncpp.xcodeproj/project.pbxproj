@@ -36,6 +36,34 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* rncppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rncppTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
+		5E58663421F86F8F00A5CA4A /* RVJavascriptPromise+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E5865FF21F86F8C00A5CA4A /* RVJavascriptPromise+Private.mm */; };
+		5E58663521F86F8F00A5CA4A /* DJIProxyCaches.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E58660021F86F8C00A5CA4A /* DJIProxyCaches.mm */; };
+		5E58663621F86F8F00A5CA4A /* RVJavascriptObject+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E58660421F86F8C00A5CA4A /* RVJavascriptObject+Private.mm */; };
+		5E58663721F86F8F00A5CA4A /* RVJavascriptCallback+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E58660521F86F8C00A5CA4A /* RVJavascriptCallback+Private.mm */; };
+		5E58663821F86F8F00A5CA4A /* DJIError.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E58660821F86F8C00A5CA4A /* DJIError.mm */; };
+		5E58663921F86F8F00A5CA4A /* RVJavascriptPromiseImpl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E58660921F86F8D00A5CA4A /* RVJavascriptPromiseImpl.mm */; };
+		5E58663A21F86F8F00A5CA4A /* RVJobDispatcherImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E58660B21F86F8D00A5CA4A /* RVJobDispatcherImpl.m */; };
+		5E58663B21F86F8F00A5CA4A /* RVJavascriptCallbackImpl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E58660D21F86F8D00A5CA4A /* RVJavascriptCallbackImpl.mm */; };
+		5E58663C21F86F8F00A5CA4A /* RVJavascriptMapKeyIterator+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E58661421F86F8D00A5CA4A /* RVJavascriptMapKeyIterator+Private.mm */; };
+		5E58663D21F86F8F00A5CA4A /* RVJavascriptArrayImpl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E58661521F86F8D00A5CA4A /* RVJavascriptArrayImpl.mm */; };
+		5E58663E21F86F8F00A5CA4A /* RVJob+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E58661721F86F8E00A5CA4A /* RVJob+Private.mm */; };
+		5E58663F21F86F8F00A5CA4A /* RVJavascriptMap+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E58661A21F86F8E00A5CA4A /* RVJavascriptMap+Private.mm */; };
+		5E58664021F86F8F00A5CA4A /* RVReactDjinni.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E58661D21F86F8E00A5CA4A /* RVReactDjinni.mm */; };
+		5E58664121F86F8F00A5CA4A /* RVJavascriptArray+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E58661E21F86F8E00A5CA4A /* RVJavascriptArray+Private.mm */; };
+		5E58664221F86F8F00A5CA4A /* RVJobQueue+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E58662021F86F8E00A5CA4A /* RVJobQueue+Private.mm */; };
+		5E58664321F86F8F00A5CA4A /* RVJobDispatcher+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E58662321F86F8E00A5CA4A /* RVJobDispatcher+Private.mm */; };
+		5E58664421F86F8F00A5CA4A /* RVReactBridge+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E58662821F86F8F00A5CA4A /* RVReactBridge+Private.mm */; };
+		5E58664521F86F8F00A5CA4A /* RVReactBridgeImpl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E58662F21F86F8F00A5CA4A /* RVReactBridgeImpl.mm */; };
+		5E58664621F86F8F00A5CA4A /* RVJavascriptMapKeyIteratorImpl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E58663121F86F8F00A5CA4A /* RVJavascriptMapKeyIteratorImpl.mm */; };
+		5E58664721F86F8F00A5CA4A /* RVJavascriptMapImpl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E58663321F86F8F00A5CA4A /* RVJavascriptMapImpl.mm */; };
+		5E58665A21F86F9900A5CA4A /* JavascriptObjectImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E58664821F86F9800A5CA4A /* JavascriptObjectImpl.cpp */; };
+		5E58665B21F86F9900A5CA4A /* JobQueueImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E58665021F86F9900A5CA4A /* JobQueueImpl.cpp */; };
+		5E58665C21F86F9900A5CA4A /* JobImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E58665321F86F9900A5CA4A /* JobImpl.cpp */; };
+		5E58666021F86FD900A5CA4A /* DemoModuleImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E58665F21F86FD900A5CA4A /* DemoModuleImpl.cpp */; };
+		5E58666421F86FE400A5CA4A /* DemoModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E58666321F86FE400A5CA4A /* DemoModule.cpp */; };
+		5E58667521F8711C00A5CA4A /* RCDemoModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E58666D21F8711B00A5CA4A /* RCDemoModule.mm */; };
+		5E58667621F8711C00A5CA4A /* RCDemoModule+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E58666E21F8711B00A5CA4A /* RCDemoModule+Private.mm */; };
+		5E58667721F8711C00A5CA4A /* RCDjinniModulesInitializer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E58667421F8711C00A5CA4A /* RCDjinniModulesInitializer.mm */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 /* End PBXBuildFile section */
@@ -339,6 +367,90 @@
 		2D02E47B1E0B4A5D006451C7 /* rncpp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rncpp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* rncpp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rncpp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5865FE21F86F8C00A5CA4A /* RVJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RVJob.h; path = "../../react-native-cpp-support/support-lib/objc/RVJob.h"; sourceTree = "<group>"; };
+		5E5865FF21F86F8C00A5CA4A /* RVJavascriptPromise+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "RVJavascriptPromise+Private.mm"; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptPromise+Private.mm"; sourceTree = "<group>"; };
+		5E58660021F86F8C00A5CA4A /* DJIProxyCaches.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = DJIProxyCaches.mm; path = "../../react-native-cpp-support/support-lib/objc/DJIProxyCaches.mm"; sourceTree = "<group>"; };
+		5E58660121F86F8C00A5CA4A /* RVJavascriptMapKeyIteratorImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RVJavascriptMapKeyIteratorImpl.h; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptMapKeyIteratorImpl.h"; sourceTree = "<group>"; };
+		5E58660221F86F8C00A5CA4A /* RVJavascriptArray+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RVJavascriptArray+Private.h"; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptArray+Private.h"; sourceTree = "<group>"; };
+		5E58660321F86F8C00A5CA4A /* RVJavascriptMap+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RVJavascriptMap+Private.h"; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptMap+Private.h"; sourceTree = "<group>"; };
+		5E58660421F86F8C00A5CA4A /* RVJavascriptObject+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "RVJavascriptObject+Private.mm"; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptObject+Private.mm"; sourceTree = "<group>"; };
+		5E58660521F86F8C00A5CA4A /* RVJavascriptCallback+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "RVJavascriptCallback+Private.mm"; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptCallback+Private.mm"; sourceTree = "<group>"; };
+		5E58660621F86F8C00A5CA4A /* RVJobQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RVJobQueue.h; path = "../../react-native-cpp-support/support-lib/objc/RVJobQueue.h"; sourceTree = "<group>"; };
+		5E58660721F86F8C00A5CA4A /* RVJob+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RVJob+Private.h"; path = "../../react-native-cpp-support/support-lib/objc/RVJob+Private.h"; sourceTree = "<group>"; };
+		5E58660821F86F8C00A5CA4A /* DJIError.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = DJIError.mm; path = "../../react-native-cpp-support/support-lib/objc/DJIError.mm"; sourceTree = "<group>"; };
+		5E58660921F86F8D00A5CA4A /* RVJavascriptPromiseImpl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RVJavascriptPromiseImpl.mm; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptPromiseImpl.mm"; sourceTree = "<group>"; };
+		5E58660A21F86F8D00A5CA4A /* RVJobDispatcherImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RVJobDispatcherImpl.h; path = "../../react-native-cpp-support/support-lib/objc/RVJobDispatcherImpl.h"; sourceTree = "<group>"; };
+		5E58660B21F86F8D00A5CA4A /* RVJobDispatcherImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RVJobDispatcherImpl.m; path = "../../react-native-cpp-support/support-lib/objc/RVJobDispatcherImpl.m"; sourceTree = "<group>"; };
+		5E58660C21F86F8D00A5CA4A /* RVJavascriptArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RVJavascriptArray.h; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptArray.h"; sourceTree = "<group>"; };
+		5E58660D21F86F8D00A5CA4A /* RVJavascriptCallbackImpl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RVJavascriptCallbackImpl.mm; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptCallbackImpl.mm"; sourceTree = "<group>"; };
+		5E58660E21F86F8D00A5CA4A /* DJIError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJIError.h; path = "../../react-native-cpp-support/support-lib/objc/DJIError.h"; sourceTree = "<group>"; };
+		5E58660F21F86F8D00A5CA4A /* RVJavascriptObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RVJavascriptObject.h; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptObject.h"; sourceTree = "<group>"; };
+		5E58661021F86F8D00A5CA4A /* RVJavascriptMapKeyIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RVJavascriptMapKeyIterator.h; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptMapKeyIterator.h"; sourceTree = "<group>"; };
+		5E58661121F86F8D00A5CA4A /* RVJavascriptMapKeyIterator+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RVJavascriptMapKeyIterator+Private.h"; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptMapKeyIterator+Private.h"; sourceTree = "<group>"; };
+		5E58661221F86F8D00A5CA4A /* RVJobDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RVJobDispatcher.h; path = "../../react-native-cpp-support/support-lib/objc/RVJobDispatcher.h"; sourceTree = "<group>"; };
+		5E58661321F86F8D00A5CA4A /* RVJavascriptCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RVJavascriptCallback.h; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptCallback.h"; sourceTree = "<group>"; };
+		5E58661421F86F8D00A5CA4A /* RVJavascriptMapKeyIterator+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "RVJavascriptMapKeyIterator+Private.mm"; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptMapKeyIterator+Private.mm"; sourceTree = "<group>"; };
+		5E58661521F86F8D00A5CA4A /* RVJavascriptArrayImpl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RVJavascriptArrayImpl.mm; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptArrayImpl.mm"; sourceTree = "<group>"; };
+		5E58661621F86F8D00A5CA4A /* DJIMarshal+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DJIMarshal+Private.h"; path = "../../react-native-cpp-support/support-lib/objc/DJIMarshal+Private.h"; sourceTree = "<group>"; };
+		5E58661721F86F8E00A5CA4A /* RVJob+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "RVJob+Private.mm"; path = "../../react-native-cpp-support/support-lib/objc/RVJob+Private.mm"; sourceTree = "<group>"; };
+		5E58661821F86F8E00A5CA4A /* RVReactBridge+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RVReactBridge+Private.h"; path = "../../react-native-cpp-support/support-lib/objc/RVReactBridge+Private.h"; sourceTree = "<group>"; };
+		5E58661921F86F8E00A5CA4A /* RVReactBridgeImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RVReactBridgeImpl.h; path = "../../react-native-cpp-support/support-lib/objc/RVReactBridgeImpl.h"; sourceTree = "<group>"; };
+		5E58661A21F86F8E00A5CA4A /* RVJavascriptMap+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "RVJavascriptMap+Private.mm"; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptMap+Private.mm"; sourceTree = "<group>"; };
+		5E58661B21F86F8E00A5CA4A /* RVJavascriptArrayImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RVJavascriptArrayImpl.h; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptArrayImpl.h"; sourceTree = "<group>"; };
+		5E58661C21F86F8E00A5CA4A /* RVJavascriptMapImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RVJavascriptMapImpl.h; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptMapImpl.h"; sourceTree = "<group>"; };
+		5E58661D21F86F8E00A5CA4A /* RVReactDjinni.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RVReactDjinni.mm; path = "../../react-native-cpp-support/support-lib/objc/RVReactDjinni.mm"; sourceTree = "<group>"; };
+		5E58661E21F86F8E00A5CA4A /* RVJavascriptArray+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "RVJavascriptArray+Private.mm"; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptArray+Private.mm"; sourceTree = "<group>"; };
+		5E58661F21F86F8E00A5CA4A /* DJIObjcWrapperCache+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DJIObjcWrapperCache+Private.h"; path = "../../react-native-cpp-support/support-lib/objc/DJIObjcWrapperCache+Private.h"; sourceTree = "<group>"; };
+		5E58662021F86F8E00A5CA4A /* RVJobQueue+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "RVJobQueue+Private.mm"; path = "../../react-native-cpp-support/support-lib/objc/RVJobQueue+Private.mm"; sourceTree = "<group>"; };
+		5E58662121F86F8E00A5CA4A /* RVJobQueue+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RVJobQueue+Private.h"; path = "../../react-native-cpp-support/support-lib/objc/RVJobQueue+Private.h"; sourceTree = "<group>"; };
+		5E58662221F86F8E00A5CA4A /* DJICppWrapperCache+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DJICppWrapperCache+Private.h"; path = "../../react-native-cpp-support/support-lib/objc/DJICppWrapperCache+Private.h"; sourceTree = "<group>"; };
+		5E58662321F86F8E00A5CA4A /* RVJobDispatcher+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "RVJobDispatcher+Private.mm"; path = "../../react-native-cpp-support/support-lib/objc/RVJobDispatcher+Private.mm"; sourceTree = "<group>"; };
+		5E58662421F86F8F00A5CA4A /* RVJavascriptMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RVJavascriptMap.h; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptMap.h"; sourceTree = "<group>"; };
+		5E58662521F86F8F00A5CA4A /* RVJavascriptPromiseImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RVJavascriptPromiseImpl.h; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptPromiseImpl.h"; sourceTree = "<group>"; };
+		5E58662621F86F8F00A5CA4A /* RVJavascriptPromise+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RVJavascriptPromise+Private.h"; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptPromise+Private.h"; sourceTree = "<group>"; };
+		5E58662721F86F8F00A5CA4A /* RVJavascriptCallback+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RVJavascriptCallback+Private.h"; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptCallback+Private.h"; sourceTree = "<group>"; };
+		5E58662821F86F8F00A5CA4A /* RVReactBridge+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "RVReactBridge+Private.mm"; path = "../../react-native-cpp-support/support-lib/objc/RVReactBridge+Private.mm"; sourceTree = "<group>"; };
+		5E58662921F86F8F00A5CA4A /* RVJobDispatcher+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RVJobDispatcher+Private.h"; path = "../../react-native-cpp-support/support-lib/objc/RVJobDispatcher+Private.h"; sourceTree = "<group>"; };
+		5E58662A21F86F8F00A5CA4A /* RVReactBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RVReactBridge.h; path = "../../react-native-cpp-support/support-lib/objc/RVReactBridge.h"; sourceTree = "<group>"; };
+		5E58662B21F86F8F00A5CA4A /* RVJavascriptCallbackImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RVJavascriptCallbackImpl.h; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptCallbackImpl.h"; sourceTree = "<group>"; };
+		5E58662C21F86F8F00A5CA4A /* RVJavascriptType+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RVJavascriptType+Private.h"; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptType+Private.h"; sourceTree = "<group>"; };
+		5E58662D21F86F8F00A5CA4A /* RVReactDjinni.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RVReactDjinni.h; path = "../../react-native-cpp-support/support-lib/objc/RVReactDjinni.h"; sourceTree = "<group>"; };
+		5E58662E21F86F8F00A5CA4A /* RVJavascriptType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RVJavascriptType.h; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptType.h"; sourceTree = "<group>"; };
+		5E58662F21F86F8F00A5CA4A /* RVReactBridgeImpl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RVReactBridgeImpl.mm; path = "../../react-native-cpp-support/support-lib/objc/RVReactBridgeImpl.mm"; sourceTree = "<group>"; };
+		5E58663021F86F8F00A5CA4A /* RVJavascriptObject+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RVJavascriptObject+Private.h"; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptObject+Private.h"; sourceTree = "<group>"; };
+		5E58663121F86F8F00A5CA4A /* RVJavascriptMapKeyIteratorImpl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RVJavascriptMapKeyIteratorImpl.mm; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptMapKeyIteratorImpl.mm"; sourceTree = "<group>"; };
+		5E58663221F86F8F00A5CA4A /* RVJavascriptPromise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RVJavascriptPromise.h; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptPromise.h"; sourceTree = "<group>"; };
+		5E58663321F86F8F00A5CA4A /* RVJavascriptMapImpl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RVJavascriptMapImpl.mm; path = "../../react-native-cpp-support/support-lib/objc/RVJavascriptMapImpl.mm"; sourceTree = "<group>"; };
+		5E58664821F86F9800A5CA4A /* JavascriptObjectImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JavascriptObjectImpl.cpp; path = "../../react-native-cpp-support/support-lib/cpp/JavascriptObjectImpl.cpp"; sourceTree = "<group>"; };
+		5E58664921F86F9800A5CA4A /* JobDispatcher.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = JobDispatcher.hpp; path = "../../react-native-cpp-support/support-lib/cpp/JobDispatcher.hpp"; sourceTree = "<group>"; };
+		5E58664A21F86F9800A5CA4A /* JavascriptCallback.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = JavascriptCallback.hpp; path = "../../react-native-cpp-support/support-lib/cpp/JavascriptCallback.hpp"; sourceTree = "<group>"; };
+		5E58664B21F86F9800A5CA4A /* JavascriptObject.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = JavascriptObject.hpp; path = "../../react-native-cpp-support/support-lib/cpp/JavascriptObject.hpp"; sourceTree = "<group>"; };
+		5E58664C21F86F9800A5CA4A /* JavascriptMapKeyIterator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = JavascriptMapKeyIterator.hpp; path = "../../react-native-cpp-support/support-lib/cpp/JavascriptMapKeyIterator.hpp"; sourceTree = "<group>"; };
+		5E58664D21F86F9800A5CA4A /* JavascriptPromise.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = JavascriptPromise.hpp; path = "../../react-native-cpp-support/support-lib/cpp/JavascriptPromise.hpp"; sourceTree = "<group>"; };
+		5E58664E21F86F9900A5CA4A /* JavascriptArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = JavascriptArray.hpp; path = "../../react-native-cpp-support/support-lib/cpp/JavascriptArray.hpp"; sourceTree = "<group>"; };
+		5E58664F21F86F9900A5CA4A /* JobQueue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = JobQueue.hpp; path = "../../react-native-cpp-support/support-lib/cpp/JobQueue.hpp"; sourceTree = "<group>"; };
+		5E58665021F86F9900A5CA4A /* JobQueueImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JobQueueImpl.cpp; path = "../../react-native-cpp-support/support-lib/cpp/JobQueueImpl.cpp"; sourceTree = "<group>"; };
+		5E58665121F86F9900A5CA4A /* JobQueueImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = JobQueueImpl.hpp; path = "../../react-native-cpp-support/support-lib/cpp/JobQueueImpl.hpp"; sourceTree = "<group>"; };
+		5E58665221F86F9900A5CA4A /* JavascriptType.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = JavascriptType.hpp; path = "../../react-native-cpp-support/support-lib/cpp/JavascriptType.hpp"; sourceTree = "<group>"; };
+		5E58665321F86F9900A5CA4A /* JobImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JobImpl.cpp; path = "../../react-native-cpp-support/support-lib/cpp/JobImpl.cpp"; sourceTree = "<group>"; };
+		5E58665421F86F9900A5CA4A /* JavascriptMap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = JavascriptMap.hpp; path = "../../react-native-cpp-support/support-lib/cpp/JavascriptMap.hpp"; sourceTree = "<group>"; };
+		5E58665521F86F9900A5CA4A /* ReactBridge.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ReactBridge.hpp; path = "../../react-native-cpp-support/support-lib/cpp/ReactBridge.hpp"; sourceTree = "<group>"; };
+		5E58665621F86F9900A5CA4A /* JobImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = JobImpl.hpp; path = "../../react-native-cpp-support/support-lib/cpp/JobImpl.hpp"; sourceTree = "<group>"; };
+		5E58665721F86F9900A5CA4A /* Job.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Job.hpp; path = "../../react-native-cpp-support/support-lib/cpp/Job.hpp"; sourceTree = "<group>"; };
+		5E58665821F86F9900A5CA4A /* JavascriptObjectImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = JavascriptObjectImpl.hpp; path = "../../react-native-cpp-support/support-lib/cpp/JavascriptObjectImpl.hpp"; sourceTree = "<group>"; };
+		5E58665921F86F9900A5CA4A /* JavascriptTypes.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = JavascriptTypes.hpp; path = "../../react-native-cpp-support/support-lib/cpp/JavascriptTypes.hpp"; sourceTree = "<group>"; };
+		5E58665E21F86FD900A5CA4A /* DemoModuleImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DemoModuleImpl.hpp; path = ../cpp/DemoModuleImpl.hpp; sourceTree = "<group>"; };
+		5E58665F21F86FD900A5CA4A /* DemoModuleImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DemoModuleImpl.cpp; path = ../cpp/DemoModuleImpl.cpp; sourceTree = "<group>"; };
+		5E58666221F86FE400A5CA4A /* DemoModule.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DemoModule.hpp; path = ../cpp/gen/DemoModule.hpp; sourceTree = "<group>"; };
+		5E58666321F86FE400A5CA4A /* DemoModule.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DemoModule.cpp; path = ../cpp/gen/DemoModule.cpp; sourceTree = "<group>"; };
+		5E58666D21F8711B00A5CA4A /* RCDemoModule.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RCDemoModule.mm; path = rncpp/Generated/RCDemoModule.mm; sourceTree = "<group>"; };
+		5E58666E21F8711B00A5CA4A /* RCDemoModule+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "RCDemoModule+Private.mm"; path = "rncpp/Generated/RCDemoModule+Private.mm"; sourceTree = "<group>"; };
+		5E58666F21F8711B00A5CA4A /* RCDemoModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCDemoModule.h; path = rncpp/Generated/RCDemoModule.h; sourceTree = "<group>"; };
+		5E58667021F8711B00A5CA4A /* ExampleProject-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ExampleProject-Bridging-Header.h"; path = "rncpp/Generated/ExampleProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		5E58667121F8711B00A5CA4A /* rncpp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "rncpp-Bridging-Header.h"; path = "rncpp/Generated/rncpp-Bridging-Header.h"; sourceTree = "<group>"; };
+		5E58667221F8711B00A5CA4A /* RCDemoModule+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RCDemoModule+Private.h"; path = "rncpp/Generated/RCDemoModule+Private.h"; sourceTree = "<group>"; };
+		5E58667321F8711C00A5CA4A /* RCDjinniModulesInitializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCDjinniModulesInitializer.h; path = rncpp/Generated/RCDjinniModulesInitializer.h; sourceTree = "<group>"; };
+		5E58667421F8711C00A5CA4A /* RCDjinniModulesInitializer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RCDjinniModulesInitializer.mm; path = rncpp/Generated/RCDjinniModulesInitializer.mm; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
@@ -523,6 +635,144 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5E5865FC21F86F2D00A5CA4A /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				5E58664E21F86F9900A5CA4A /* JavascriptArray.hpp */,
+				5E58664A21F86F9800A5CA4A /* JavascriptCallback.hpp */,
+				5E58665421F86F9900A5CA4A /* JavascriptMap.hpp */,
+				5E58664C21F86F9800A5CA4A /* JavascriptMapKeyIterator.hpp */,
+				5E58664B21F86F9800A5CA4A /* JavascriptObject.hpp */,
+				5E58664821F86F9800A5CA4A /* JavascriptObjectImpl.cpp */,
+				5E58665821F86F9900A5CA4A /* JavascriptObjectImpl.hpp */,
+				5E58664D21F86F9800A5CA4A /* JavascriptPromise.hpp */,
+				5E58665221F86F9900A5CA4A /* JavascriptType.hpp */,
+				5E58665921F86F9900A5CA4A /* JavascriptTypes.hpp */,
+				5E58665721F86F9900A5CA4A /* Job.hpp */,
+				5E58664921F86F9800A5CA4A /* JobDispatcher.hpp */,
+				5E58665321F86F9900A5CA4A /* JobImpl.cpp */,
+				5E58665621F86F9900A5CA4A /* JobImpl.hpp */,
+				5E58664F21F86F9900A5CA4A /* JobQueue.hpp */,
+				5E58665021F86F9900A5CA4A /* JobQueueImpl.cpp */,
+				5E58665121F86F9900A5CA4A /* JobQueueImpl.hpp */,
+				5E58665521F86F9900A5CA4A /* ReactBridge.hpp */,
+			);
+			name = cpp;
+			sourceTree = "<group>";
+		};
+		5E5865FD21F86F3200A5CA4A /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				5E58662221F86F8E00A5CA4A /* DJICppWrapperCache+Private.h */,
+				5E58660E21F86F8D00A5CA4A /* DJIError.h */,
+				5E58660821F86F8C00A5CA4A /* DJIError.mm */,
+				5E58661621F86F8D00A5CA4A /* DJIMarshal+Private.h */,
+				5E58661F21F86F8E00A5CA4A /* DJIObjcWrapperCache+Private.h */,
+				5E58660021F86F8C00A5CA4A /* DJIProxyCaches.mm */,
+				5E58660C21F86F8D00A5CA4A /* RVJavascriptArray.h */,
+				5E58660221F86F8C00A5CA4A /* RVJavascriptArray+Private.h */,
+				5E58661E21F86F8E00A5CA4A /* RVJavascriptArray+Private.mm */,
+				5E58661B21F86F8E00A5CA4A /* RVJavascriptArrayImpl.h */,
+				5E58661521F86F8D00A5CA4A /* RVJavascriptArrayImpl.mm */,
+				5E58661321F86F8D00A5CA4A /* RVJavascriptCallback.h */,
+				5E58662721F86F8F00A5CA4A /* RVJavascriptCallback+Private.h */,
+				5E58660521F86F8C00A5CA4A /* RVJavascriptCallback+Private.mm */,
+				5E58662B21F86F8F00A5CA4A /* RVJavascriptCallbackImpl.h */,
+				5E58660D21F86F8D00A5CA4A /* RVJavascriptCallbackImpl.mm */,
+				5E58662421F86F8F00A5CA4A /* RVJavascriptMap.h */,
+				5E58660321F86F8C00A5CA4A /* RVJavascriptMap+Private.h */,
+				5E58661A21F86F8E00A5CA4A /* RVJavascriptMap+Private.mm */,
+				5E58661C21F86F8E00A5CA4A /* RVJavascriptMapImpl.h */,
+				5E58663321F86F8F00A5CA4A /* RVJavascriptMapImpl.mm */,
+				5E58661021F86F8D00A5CA4A /* RVJavascriptMapKeyIterator.h */,
+				5E58661121F86F8D00A5CA4A /* RVJavascriptMapKeyIterator+Private.h */,
+				5E58661421F86F8D00A5CA4A /* RVJavascriptMapKeyIterator+Private.mm */,
+				5E58660121F86F8C00A5CA4A /* RVJavascriptMapKeyIteratorImpl.h */,
+				5E58663121F86F8F00A5CA4A /* RVJavascriptMapKeyIteratorImpl.mm */,
+				5E58660F21F86F8D00A5CA4A /* RVJavascriptObject.h */,
+				5E58663021F86F8F00A5CA4A /* RVJavascriptObject+Private.h */,
+				5E58660421F86F8C00A5CA4A /* RVJavascriptObject+Private.mm */,
+				5E58663221F86F8F00A5CA4A /* RVJavascriptPromise.h */,
+				5E58662621F86F8F00A5CA4A /* RVJavascriptPromise+Private.h */,
+				5E5865FF21F86F8C00A5CA4A /* RVJavascriptPromise+Private.mm */,
+				5E58662521F86F8F00A5CA4A /* RVJavascriptPromiseImpl.h */,
+				5E58660921F86F8D00A5CA4A /* RVJavascriptPromiseImpl.mm */,
+				5E58662E21F86F8F00A5CA4A /* RVJavascriptType.h */,
+				5E58662C21F86F8F00A5CA4A /* RVJavascriptType+Private.h */,
+				5E5865FE21F86F8C00A5CA4A /* RVJob.h */,
+				5E58660721F86F8C00A5CA4A /* RVJob+Private.h */,
+				5E58661721F86F8E00A5CA4A /* RVJob+Private.mm */,
+				5E58661221F86F8D00A5CA4A /* RVJobDispatcher.h */,
+				5E58662921F86F8F00A5CA4A /* RVJobDispatcher+Private.h */,
+				5E58662321F86F8E00A5CA4A /* RVJobDispatcher+Private.mm */,
+				5E58660A21F86F8D00A5CA4A /* RVJobDispatcherImpl.h */,
+				5E58660B21F86F8D00A5CA4A /* RVJobDispatcherImpl.m */,
+				5E58660621F86F8C00A5CA4A /* RVJobQueue.h */,
+				5E58662121F86F8E00A5CA4A /* RVJobQueue+Private.h */,
+				5E58662021F86F8E00A5CA4A /* RVJobQueue+Private.mm */,
+				5E58662A21F86F8F00A5CA4A /* RVReactBridge.h */,
+				5E58661821F86F8E00A5CA4A /* RVReactBridge+Private.h */,
+				5E58662821F86F8F00A5CA4A /* RVReactBridge+Private.mm */,
+				5E58661921F86F8E00A5CA4A /* RVReactBridgeImpl.h */,
+				5E58662F21F86F8F00A5CA4A /* RVReactBridgeImpl.mm */,
+				5E58662D21F86F8F00A5CA4A /* RVReactDjinni.h */,
+				5E58661D21F86F8E00A5CA4A /* RVReactDjinni.mm */,
+			);
+			name = objc;
+			sourceTree = "<group>";
+		};
+		5E58665D21F86FB400A5CA4A /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				5E58666121F86FDD00A5CA4A /* gen */,
+				5E58665F21F86FD900A5CA4A /* DemoModuleImpl.cpp */,
+				5E58665E21F86FD900A5CA4A /* DemoModuleImpl.hpp */,
+			);
+			name = cpp;
+			sourceTree = "<group>";
+		};
+		5E58666121F86FDD00A5CA4A /* gen */ = {
+			isa = PBXGroup;
+			children = (
+				5E58666321F86FE400A5CA4A /* DemoModule.cpp */,
+				5E58666221F86FE400A5CA4A /* DemoModule.hpp */,
+			);
+			name = gen;
+			sourceTree = "<group>";
+		};
+		5E58666521F8701400A5CA4A /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				5E58667021F8711B00A5CA4A /* ExampleProject-Bridging-Header.h */,
+				5E58666F21F8711B00A5CA4A /* RCDemoModule.h */,
+				5E58666D21F8711B00A5CA4A /* RCDemoModule.mm */,
+				5E58667221F8711B00A5CA4A /* RCDemoModule+Private.h */,
+				5E58666E21F8711B00A5CA4A /* RCDemoModule+Private.mm */,
+				5E58667321F8711C00A5CA4A /* RCDjinniModulesInitializer.h */,
+				5E58667421F8711C00A5CA4A /* RCDjinniModulesInitializer.mm */,
+				5E58667121F8711B00A5CA4A /* rncpp-Bridging-Header.h */,
+			);
+			name = Generated;
+			sourceTree = "<group>";
+		};
+		5E78575121F86998006FD7B8 /* impl */ = {
+			isa = PBXGroup;
+			children = (
+				5E58666521F8701400A5CA4A /* Generated */,
+				5E58665D21F86FB400A5CA4A /* cpp */,
+			);
+			name = impl;
+			sourceTree = "<group>";
+		};
+		5E78578121F86B69006FD7B8 /* djinni */ = {
+			isa = PBXGroup;
+			children = (
+				5E5865FD21F86F3200A5CA4A /* objc */,
+				5E5865FC21F86F2D00A5CA4A /* cpp */,
+			);
+			name = djinni;
+			sourceTree = "<group>";
+		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -572,6 +822,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				5E78578121F86B69006FD7B8 /* djinni */,
+				5E78575121F86998006FD7B8 /* impl */,
 				13B07FAE1A68108700A75B9A /* rncpp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* rncppTests */,
@@ -1113,8 +1365,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E58663821F86F8F00A5CA4A /* DJIError.mm in Sources */,
+				5E58663421F86F8F00A5CA4A /* RVJavascriptPromise+Private.mm in Sources */,
+				5E58664521F86F8F00A5CA4A /* RVReactBridgeImpl.mm in Sources */,
+				5E58665B21F86F9900A5CA4A /* JobQueueImpl.cpp in Sources */,
+				5E58663921F86F8F00A5CA4A /* RVJavascriptPromiseImpl.mm in Sources */,
+				5E58663521F86F8F00A5CA4A /* DJIProxyCaches.mm in Sources */,
+				5E58663D21F86F8F00A5CA4A /* RVJavascriptArrayImpl.mm in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				5E58667621F8711C00A5CA4A /* RCDemoModule+Private.mm in Sources */,
+				5E58664421F86F8F00A5CA4A /* RVReactBridge+Private.mm in Sources */,
+				5E58664221F86F8F00A5CA4A /* RVJobQueue+Private.mm in Sources */,
+				5E58666421F86FE400A5CA4A /* DemoModule.cpp in Sources */,
+				5E58667521F8711C00A5CA4A /* RCDemoModule.mm in Sources */,
+				5E58663B21F86F8F00A5CA4A /* RVJavascriptCallbackImpl.mm in Sources */,
+				5E58665A21F86F9900A5CA4A /* JavascriptObjectImpl.cpp in Sources */,
+				5E58664321F86F8F00A5CA4A /* RVJobDispatcher+Private.mm in Sources */,
+				5E58663A21F86F8F00A5CA4A /* RVJobDispatcherImpl.m in Sources */,
+				5E58667721F8711C00A5CA4A /* RCDjinniModulesInitializer.mm in Sources */,
+				5E58664121F86F8F00A5CA4A /* RVJavascriptArray+Private.mm in Sources */,
+				5E58663721F86F8F00A5CA4A /* RVJavascriptCallback+Private.mm in Sources */,
+				5E58664621F86F8F00A5CA4A /* RVJavascriptMapKeyIteratorImpl.mm in Sources */,
+				5E58664721F86F8F00A5CA4A /* RVJavascriptMapImpl.mm in Sources */,
+				5E58663F21F86F8F00A5CA4A /* RVJavascriptMap+Private.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				5E58665C21F86F9900A5CA4A /* JobImpl.cpp in Sources */,
+				5E58664021F86F8F00A5CA4A /* RVReactDjinni.mm in Sources */,
+				5E58663621F86F8F00A5CA4A /* RVJavascriptObject+Private.mm in Sources */,
+				5E58663E21F86F8F00A5CA4A /* RVJob+Private.mm in Sources */,
+				5E58666021F86FD900A5CA4A /* DemoModuleImpl.cpp in Sources */,
+				5E58663C21F86F8F00A5CA4A /* RVJavascriptMapKeyIterator+Private.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
